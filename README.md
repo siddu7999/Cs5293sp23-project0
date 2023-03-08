@@ -14,22 +14,9 @@ The following packages are installed:
 - pandas
 
 # Structure:
-  cs5293sp23-project0/
-├── COLLABORATORS
-├── LICENSE
-├── Pipfile
-├── Pipfile.lock
-├── README.md
-├── docs
-│   └── demo.gif
-├── incidents.db
-├── project0
-│   ├── incidents.db
-│ └── main.py
- ├── setup.cfg
-├── setup.py
-└── tests
-    └── test_case.py
+<img width="300" alt="Screenshot 2023-03-07 at 11 38 08 PM" src="https://user-images.githubusercontent.com/100113832/223628579-1254b8bc-04ed-4374-ac25-a964d6ff15aa.png">
+
+
     
 # Installment Procedure:
 - To start the project, first, create a new directory named “project”: mkdir project
