@@ -27,6 +27,7 @@ Structure:
 ├── setup.py
 └── tests
     └── test_case.py
+    
  Installment Procedure:
 • To start the project, first, create a new directory named “project”: mkdir project
 • Change the directory path to “project”: cd project
