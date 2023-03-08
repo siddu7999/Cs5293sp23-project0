@@ -2,6 +2,7 @@
 
 ### Name: Siddartha Sodum
 ### Sooner ID: 113581755
+
 # Description:
 The project aims to extract data from a PDF file containing summaries of arrests, cases, and incident reports in the Norman, which is available on the Police Department Website. In this project, we use python to process the downloaded file and extract the relevant data. The extracted data is then stored in SQLite3 database, enabling the retrieval of unique incident types and their frequency in the Norman area. The project involves the use of Python, GIT, Linux and SQLite3.
 
@@ -33,8 +34,7 @@ The following packages are installed:
 # Installment Procedure:
 - To start the project, first, create a new directory named “project”: mkdir project
 - Change the directory path to “project”: cd project
-- Download the project file from git using the command: “https://github.com/siddu7999
-/cs5293sp23-project0 “
+- Download the project file from git using the command: “https://github.com/siddu7999/cs5293sp23-project0 “
 - Navigate to the downloaded project directory and install pipenv by using the command “pip install pipenv“
 - Install all the necessary packages required for the project using the command “pip install <packpagename>“
 
@@ -42,13 +42,16 @@ The following packages are installed:
 - Inorder to execute the main.py we use the following command:
 Pipenv run python3 project0/main.py –incidents <paste the url here>
 - To run the unit test cases: pipenv run python -m pytest
+  
 # External Links:
 - https://www.geeksforgeeks.org/write-regular-expressions/
 - https://docs.python.org/3.10/library/sqlite3.html
+  
 # Assumptions:
 - The code has been designed to handle PDF files that adhere to a particular format used by the Oklahoma Police Department website.
 - It may not be able to effectively process PDF files with data spanning multiple lines, as it assumes that each line of text represents a single incident record.
-#Function Description:
+  
+# Function Description:
 The main.py consists of the following methods:
 ### extractpdfpages():
 - The extractpdfpages() method extracts the text from a PDF file located at a given URL using the PyPDF2 library.
